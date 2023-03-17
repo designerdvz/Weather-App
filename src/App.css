@@ -1,19 +1,17 @@
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.input{
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-right: 8px;
-}
-.invalidInput{
-  border: 2px solid #ae0202;
-  border-radius: 4px;
-  margin-right: 8px;
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .wrapperWeather{
-  margin-top: 50px;
+  margin-left: 20%;
 }
-.cloudsImg{
-  height: 100px;
+.wrapper {
+
 }

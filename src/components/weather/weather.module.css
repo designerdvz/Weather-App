@@ -1,0 +1,14 @@
+.cloudsImg{
+    height: 100px;
+}
+.list{
+    border: 2px solid black;
+    background-color: white;
+    width: 200px;
+    padding: 40px 10px;
+    border-radius: 18px;
+}
+.elem{
+    margin-top: 5px;
+    cursor: default;
+}

@@ -1,0 +1,30 @@
+.input{
+    border: 2px solid #555555;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.invalidInput{
+    border: 2px solid #ae0202;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.addGeoButton{
+    border-radius: 5px;
+    border: 2px solid #555555;
+    background-color: white;
+    width: 50px;
+}
+.addGeoButton:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.addGeo{
+    margin-bottom: 50px;
+}
+.list{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.wrapper{
+
+}
