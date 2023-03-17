@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.input{
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.invalidInput{
+  border: 2px solid #ae0202;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.wrapperWeather{
+  margin-top: 50px;
+}
+.cloudsImg{
+  height: 100px;
+}
