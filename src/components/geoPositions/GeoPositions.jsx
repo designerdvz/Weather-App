@@ -3,6 +3,7 @@ import geo from '../../Store/geo'
 import weather from '../../Store/weather'
 import {useState} from 'react'
 import s from './geoPositions.module.css'
+import weatherFiveDays from "../../Store/weatherFiveDays";
 
 const GeoPostions = observer(() => {
     const [inputLat, setInputLat] = useState()
@@ -16,8 +17,8 @@ const GeoPostions = observer(() => {
 
     return (
         <div className={s.wrapper}>
-            <h4>Enter coordinates:</h4>
             <div className={s.addGeo}>
+                <h4>Enter coordinates:</h4>
                 <input type="number" className={valid ? s.input : s.invalidInput} name='inputLan'
                        onChange={(event) => {
                            setValid(true)
@@ -40,7 +41,9 @@ const GeoPostions = observer(() => {
             <div className={s.geoList}>
                 {geo.countryCity.map(pos => {
                     return <div className={s.list}
-                                onClick={() => weather.getWeather(pos.coord.lon, pos.coord.lat)}> {pos.sys?.country} : {pos.name} </div>
+                                onClick={() => {
+                                    weather.getWeather(pos.coord.lon, pos.coord.lat)
+                                }}> {pos.sys?.country} : {pos.name} </div>
                 })}
             </div>
         </div>

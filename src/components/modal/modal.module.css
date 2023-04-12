@@ -1,0 +1,21 @@
+.moduleText{
+    color: #dadada;
+    font-family: "SFBold";
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cloudsImg{
+    height: 70px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.firstDay, .secondDay, .thirdDay{
+    height: 200px;
+    width: 130px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    padding: 7px;
+    color: #dadada;
+}
